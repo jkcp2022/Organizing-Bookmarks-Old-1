@@ -19,7 +19,7 @@ process.on("uncaughtException", (err) => {
     let getAllDomainsDescPromise = [];
     let allDomainsDesc = [];
 
-    let allDomains = fs.readFileSync("./All Domains, Total: 17905");
+    let allDomains = fs.readFileSync("./Results/All Domains, Total: 28574");
     allDomains = JSON.parse(allDomains.toString());
     console.log(allDomains.length);
 
@@ -99,7 +99,7 @@ const timeoutId = setTimeout(() => controller.abort(), 10000)
                             allDomainsDesc.push(domainDescObj);
                             resolve();
                         });
-                }, 150 * (index - start));
+                }, 200 * (index - start));
             });
         })(domain, index);
 
@@ -108,7 +108,7 @@ const timeoutId = setTimeout(() => controller.abort(), 10000)
 
     await Promise.all(getAllDomainsDescPromise);
     // console.log(allDomainsDesc);
-    fs.writeFileSync("All Domains Descriptions, Start: " + start + ' ,End: ' + end, JSON.stringify(allDomainsDesc));
+    fs.writeFileSync("./Results/All Domains Descriptions, Start: " + start + ' ,End: ' + end, JSON.stringify(allDomainsDesc));
     console.log("done");
     console.timeEnd("a");
 })();
