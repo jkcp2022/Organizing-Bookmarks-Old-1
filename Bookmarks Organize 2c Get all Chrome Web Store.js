@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allCWSURLs = [...new Set(allCWSURLs)]
 console.log(allCWSURLs.length)
-fs.writeFileSync('./All CWS URLs, Total: ' + allCWSURLs.length, JSON.stringify(allCWSURLs))
+fs.writeFileSync('./Results/All CWS URLs, Total: ' + allCWSURLs.length, JSON.stringify(allCWSURLs))

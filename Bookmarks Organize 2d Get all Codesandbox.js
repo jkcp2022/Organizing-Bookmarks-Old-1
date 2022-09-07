@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allCodesandboxURLs = [...new Set(allCodesandboxURLs)]
 console.log(allCodesandboxURLs.length)
-fs.writeFileSync('./All CodeSandbox URLs, Total: ' + allCodesandboxURLs.length, JSON.stringify(allCodesandboxURLs))
+fs.writeFileSync('./Results/All CodeSandbox URLs, Total: ' + allCodesandboxURLs.length, JSON.stringify(allCodesandboxURLs))

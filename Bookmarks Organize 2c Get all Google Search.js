@@ -20,4 +20,4 @@ allBookmarks.forEach(b => {
 
 allGoogleSearchURLs = [...new Set(allGoogleSearchURLs)]
 console.log(allGoogleSearchURLs.length)
-fs.writeFileSync('./All Google Search URLs, Total: ' + allGoogleSearchURLs.length, JSON.stringify(allGoogleSearchURLs))
+fs.writeFileSync('./Results/All Google Search URLs, Total: ' + allGoogleSearchURLs.length, JSON.stringify(allGoogleSearchURLs))

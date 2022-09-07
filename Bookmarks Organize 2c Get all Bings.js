@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allBingURLs = [...new Set(allBingURLs)]
 console.log(allBingURLs.length)
-fs.writeFileSync('./All Bing URLs, Total: ' + allBingURLs.length, JSON.stringify(allBingURLs))
+fs.writeFileSync('./Results/All Bing URLs, Total: ' + allBingURLs.length, JSON.stringify(allBingURLs))

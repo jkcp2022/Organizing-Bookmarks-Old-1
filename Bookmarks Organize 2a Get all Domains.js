@@ -9,10 +9,10 @@ let allBookmarks = [...allBookmarks1, ...allBookmarks2]
 console.log(allBookmarks.length)
 
 let allDomains = []
-/* allBookmarks.forEach(b => {
+allBookmarks.forEach(b => {
     allDomains.push(new URL(b.url).hostname)
 })
 
 allDomains = [...new Set(allDomains)]
 console.log(allDomains.length)
-fs.writeFileSync('./All Domains, Total: ' + allDomains.length, JSON.stringify(allDomains)) */
+fs.writeFileSync('./Results/All Domains, Total: ' + allDomains.length, JSON.stringify(allDomains))

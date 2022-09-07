@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allGitpodURLs = [...new Set(allGitpodURLs)]
 console.log(allGitpodURLs.length)
-fs.writeFileSync('./All Gitpod URLs, Total: ' + allGitpodURLs.length, JSON.stringify(allGitpodURLs))
+fs.writeFileSync('./Results/All Gitpod URLs, Total: ' + allGitpodURLs.length, JSON.stringify(allGitpodURLs))

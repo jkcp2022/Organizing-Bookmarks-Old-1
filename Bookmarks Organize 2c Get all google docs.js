@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allGoogleDocsURLs = [...new Set(allGoogleDocsURLs)]
 console.log(allGoogleDocsURLs.length)
-fs.writeFileSync('./All Google Docs URLs, Total: ' + allGoogleDocsURLs.length, JSON.stringify(allGoogleDocsURLs))
+fs.writeFileSync('./Results/All Google Docs URLs, Total: ' + allGoogleDocsURLs.length, JSON.stringify(allGoogleDocsURLs))

@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allDouyinURLs = [...new Set(allDouyinURLs)]
 console.log('allDouyinURLs', allDouyinURLs.length)
-fs.writeFileSync('./All Douyin URLs, Total: ' + allDouyinURLs.length, JSON.stringify(allDouyinURLs))
+fs.writeFileSync('./Results/All Douyin URLs, Total: ' + allDouyinURLs.length, JSON.stringify(allDouyinURLs))

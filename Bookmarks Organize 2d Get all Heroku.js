@@ -20,4 +20,4 @@ allBookmarks.forEach(b => {
 
 allHerokuAppsURL = [...new Set(allHerokuAppsURL)]
 console.log(allHerokuAppsURL.length)
-fs.writeFileSync('./All Heroku Apps URLs, Total: ' + allHerokuAppsURL.length, JSON.stringify(allHerokuAppsURL))
+fs.writeFileSync('./Results/All Heroku Apps URLs, Total: ' + allHerokuAppsURL.length, JSON.stringify(allHerokuAppsURL))

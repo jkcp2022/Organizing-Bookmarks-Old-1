@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allMediumURLs = [...new Set(allMediumURLs)]
 console.log(allMediumURLs.length)
-fs.writeFileSync('./All Medium URLs, Total: ' + allMediumURLs.length, JSON.stringify(allMediumURLs))
+fs.writeFileSync('./Results/All Medium URLs, Total: ' + allMediumURLs.length, JSON.stringify(allMediumURLs))

@@ -20,4 +20,4 @@ allBookmarks.forEach(b => {
 
 allVisualStudioCodeMarketplaceURLs = [...new Set(allVisualStudioCodeMarketplaceURLs)]
 console.log(allVisualStudioCodeMarketplaceURLs.length)
-fs.writeFileSync('./All Visual Studio Code Marketplace URLs, Total: ' + allVisualStudioCodeMarketplaceURLs.length, JSON.stringify(allVisualStudioCodeMarketplaceURLs))
+fs.writeFileSync('./Results/All Visual Studio Code Marketplace URLs, Total: ' + allVisualStudioCodeMarketplaceURLs.length, JSON.stringify(allVisualStudioCodeMarketplaceURLs))

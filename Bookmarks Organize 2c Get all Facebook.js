@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allFacebookURLs = [...new Set(allFacebookURLs)]
 console.log(allFacebookURLs.length)
-fs.writeFileSync('./All Facebook URLs, Total: ' + allFacebookURLs.length, JSON.stringify(allFacebookURLs))
+fs.writeFileSync('./Results/All Facebook URLs, Total: ' + allFacebookURLs.length, JSON.stringify(allFacebookURLs))

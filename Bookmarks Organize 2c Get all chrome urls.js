@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allChromePagesURLs = [...new Set(allChromePagesURLs)]
 console.log(allChromePagesURLs.length)
-fs.writeFileSync('./All Chrome Pages URLs, Total: ' + allChromePagesURLs.length, JSON.stringify(allChromePagesURLs))
+fs.writeFileSync('./Results/All Chrome Pages URLs, Total: ' + allChromePagesURLs.length, JSON.stringify(allChromePagesURLs))

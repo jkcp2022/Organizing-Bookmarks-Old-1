@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allRedditURLs = [...new Set(allRedditURLs)]
 console.log(allRedditURLs.length)
-fs.writeFileSync('./All Reddit URLs, Total: ' + allRedditURLs.length, JSON.stringify(allRedditURLs))
+fs.writeFileSync('./Results/All Reddit URLs, Total: ' + allRedditURLs.length, JSON.stringify(allRedditURLs))

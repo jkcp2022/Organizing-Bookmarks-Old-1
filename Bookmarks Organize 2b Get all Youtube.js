@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allYoutubeURLs = [...new Set(allYoutubeURLs)]
 console.log(allYoutubeURLs.length)
-fs.writeFileSync('./All Youtube URLs, Total: ' + allYoutubeURLs.length, JSON.stringify(allYoutubeURLs))
+fs.writeFileSync('./Results/All Youtube URLs, Total: ' + allYoutubeURLs.length, JSON.stringify(allYoutubeURLs))

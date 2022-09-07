@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allCodepenURLs = [...new Set(allCodepenURLs)]
 console.log(allCodepenURLs.length)
-fs.writeFileSync('./All Codepen URLs, Total: ' + allCodepenURLs.length, JSON.stringify(allCodepenURLs))
+fs.writeFileSync('./Results/All Codepen URLs, Total: ' + allCodepenURLs.length, JSON.stringify(allCodepenURLs))

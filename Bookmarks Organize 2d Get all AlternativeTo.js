@@ -20,4 +20,4 @@ allBookmarks.forEach(b => {
 
 allAlternativeToURLs = [...new Set(allAlternativeToURLs)]
 console.log(allAlternativeToURLs.length)
-fs.writeFileSync('./All AlternativeTo URLs, Total: ' + allAlternativeToURLs.length, JSON.stringify(allAlternativeToURLs))
+fs.writeFileSync('./Results/All AlternativeTo URLs, Total: ' + allAlternativeToURLs.length, JSON.stringify(allAlternativeToURLs))

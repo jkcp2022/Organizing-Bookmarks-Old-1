@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allGoogleWorkspaceMarketplace = [...new Set(allGoogleWorkspaceMarketplace)]
 console.log(allGoogleWorkspaceMarketplace.length)
-fs.writeFileSync('./All Google Workspace Marketplace URLs, Total: ' + allGoogleWorkspaceMarketplace.length, JSON.stringify(allGoogleWorkspaceMarketplace))
+fs.writeFileSync('./Results/All Google Workspace Marketplace URLs, Total: ' + allGoogleWorkspaceMarketplace.length, JSON.stringify(allGoogleWorkspaceMarketplace))

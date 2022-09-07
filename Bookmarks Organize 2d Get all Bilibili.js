@@ -18,4 +18,4 @@ allBookmarks.forEach(b => {
 
 allBilibiliURLs = [...new Set(allBilibiliURLs)]
 console.log(allBilibiliURLs.length)
-fs.writeFileSync('./All Bilibili URLs, Total: ' + allBilibiliURLs.length, JSON.stringify(allBilibiliURLs))
+fs.writeFileSync('./Results/All Bilibili URLs, Total: ' + allBilibiliURLs.length, JSON.stringify(allBilibiliURLs))
